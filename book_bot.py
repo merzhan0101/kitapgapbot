@@ -319,7 +319,7 @@ async def submit_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         await update.message.reply_text(
             "Спасибо! Ваши данные сохранены ✅\n"
-            "Ожидайте проведения жеребе."
+            "Ожидайте проведения жеребьевки."
         )
     except Exception as e:
         logger.error(f"Ошибка при отправке данных: {e}")
